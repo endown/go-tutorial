@@ -22,7 +22,7 @@ func ArticleIndex(c echo.Context) error {
 	}
 
 	data := map[string]interface{}{
-		"Message":  "Artile Index",
+		"Message":  "Artile Index Updated",
 		"Now":      time.Now(),
 		"Articles": articles, //記事データをテンプレートエンジンに渡す
 	}
